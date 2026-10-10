@@ -12,3 +12,11 @@ fun main() {
 
     println(jeux)
 }
+
+fun main() {
+    val jeux = listOf("Minecraft", "Mario", "Zelda")
+
+    for (jeu in jeux) {
+        println(jeu)
+    }
+}
